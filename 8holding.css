@@ -84,6 +84,24 @@ h1{
     background-color: white;
 }
 
+.grid-containerprimary{
+
+    display: grid;
+    position: relative;
+    grid-template-columns: 2em auto;
+    grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
+    grid-gap:3em;
+    width: 90%;
+    top: 8em;
+    justify-items: left;
+    margin: auto;
+    padding: 2em;
+}
+
+pre{
+    height: 1em;
+}
+
 h2{
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
@@ -174,4 +192,36 @@ button{
     transition: max-height 0.5s ease-out;
     transition: padding 0.5s ease-out;
     background-color: #00305E;
+  }
+
+  .vl{
+    border-left: .1em solid white;
+    height: 100%;
+    position: absolute;
+  }
+
+  .link {
+    position: relative;
+    width: 100%;
+  }
+  
+  .link:first-child {
+      top: 0;
+  }
+  
+  .link:last-child {
+  }
+  
+  .link::after {
+    content: "";
+    width: 1em;
+    height: 1em;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    left: -.5em;
+  }
+
+  .link:hover::after {
+    background: black;
   }
