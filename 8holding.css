@@ -38,7 +38,8 @@ nav{
 
 ul{
     padding: 0;
-    margin: 0;
+    margin:0;
+    margin-right: 5em;
     position: absolute;
     display: inline-flex;
     right: 0;
@@ -123,8 +124,8 @@ h1 :hover{
 }
 
 .iconbox{
-    width: 12em;
-    height: 12em;
+    width: 15em;
+    height: 15em;
     background-color: white;
     position: relative;
     display: table;
@@ -150,7 +151,7 @@ h2{
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
     color: white;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 h3{
