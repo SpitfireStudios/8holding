@@ -9,7 +9,7 @@ html {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top;
-    font-size: 8em;
+    font-size: 5em;
     font-family: "Neuzeit Grotesk";
     font-weight: bolder;
     color: white;
@@ -184,14 +184,14 @@ h2{
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
     color: white;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 h3{
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     align-self: center;
     text-align: center;
 }
@@ -200,7 +200,7 @@ h4{
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
     color: #00305E;
-    font-size: 2em;
+    font-size: 1.5em;
     align-self: center;
     text-align: center;
 }
@@ -208,7 +208,7 @@ h4{
 p1{
     font-family: "Neuzeit Grotesk";
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: lighter;
     position: relative;
     align-self: center;
@@ -229,11 +229,10 @@ p2{
 p3{
     font-family: "Neuzeit Grotesk";
     color: #00305E;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: lighter;
     position: relative;
     text-align: left;
-    padding-left: 2em;
     padding-right: 2em;
 }
 
@@ -242,7 +241,7 @@ button{
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
     color: #00305E;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 8em;
     height: 2em;
     border: none;
@@ -250,13 +249,13 @@ button{
     margin: 2em;
 }
 
-button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .btn-default):hover{
+button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
     position: absolute;
     font-family: "Neuzeit Grotesk";
     font-weight: bold;
     color: white;
     background-color: #00305E;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 8em;
     height: 2em;
     border: none;
@@ -334,7 +333,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
   }
 
   .countrylist{
-      font-size: 1.2em;
+      font-size: 1em;
       color: white;
       font-family: "Neuzeit Grotesk";
       font-weight: bold;
@@ -366,8 +365,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 38%;
-    left: 50%;
+    top: 37%;
+    left: 49%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -390,8 +389,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 35%;
-    left: 10%;
+    top: 34%;
+    left: 9%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -414,8 +413,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 39%;
-    left: 23%;
+    top: 38%;
+    left: 22%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -438,8 +437,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 45%;
-    left: 23%;
+    top: 44%;
+    left: 22%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -462,8 +461,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 30%;
-    left: 42%;
+    top: 29%;
+    left: 41%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -486,8 +485,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 37%;
-    left: 46%;
+    top: 36%;
+    left: 45%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -510,8 +509,8 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 44%;
-    left: 59%;
+    top: 43%;
+    left: 58%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -534,8 +533,32 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     width: 7.5em;
     height: 7.5em;
     position: absolute;
-    top: 71%;
-    left: 84%;
+    top: 70%;
+    left: 83%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin9 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 40%;
+    left: 77%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect9 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 39%;
+    left: 76%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -555,6 +578,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
         opacity: 0;
     }
 }
+
 iframe {
     width: 100%;
     border: none;
