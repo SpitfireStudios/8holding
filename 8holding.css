@@ -181,7 +181,7 @@ pre{
 }
 
 h2{
-    font-family: "Neuzeit Grotesk";
+    font-family: 'Courgette';
     font-weight: bold;
     color: white;
     font-size: 2em;
@@ -354,7 +354,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 38%;
-    left: 50%;
+    left: 55%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -366,7 +366,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 37%;
-    left: 49%;
+    left: 54.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -378,7 +378,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 35%;
-    left: 10%;
+    left: 16%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -390,7 +390,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 34%;
-    left: 9%;
+    left: 15.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -402,7 +402,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 39%;
-    left: 23%;
+    left: 29%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -414,7 +414,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 38%;
-    left: 22%;
+    left: 28.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -426,7 +426,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 45%;
-    left: 23%;
+    left: 25%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -438,7 +438,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 44%;
-    left: 22%;
+    left: 24.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -450,7 +450,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 30%;
-    left: 42%;
+    left: 48%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -462,7 +462,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 29%;
-    left: 41%;
+    left: 47.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -474,7 +474,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 37%;
-    left: 46%;
+    left: 52%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -486,7 +486,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 36%;
-    left: 45%;
+    left: 51.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -498,7 +498,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 44%;
-    left: 59%;
+    left: 65%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -510,7 +510,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 43%;
-    left: 58%;
+    left: 64.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -522,7 +522,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 71%;
-    left: 84%;
+    left: 90%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -534,7 +534,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 70%;
-    left: 83%;
+    left: 89.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
@@ -546,7 +546,7 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 1em;
     position: absolute;
     top: 40%;
-    left: 77%;
+    left: 83%;
     background:white;
     border: 2px solid #FFF;
     border-radius: 50%;
@@ -558,12 +558,425 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     height: 7.5em;
     position: absolute;
     top: 39%;
-    left: 76%;
+    left: 82.2%;
     background: white;
     border-radius: 50%;
     opacity: 0;
     animation: pulsate 2400ms ease-out infinite;
 }
+
+.pin10 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect10 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 39%;
+    left: 50.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+/*New Shit*/
+
+.pin11 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect11 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 39%;
+    left: 59.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin12 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect12 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 44%;
+    left: 62.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin13 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect13 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 31%;
+    left: 49.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin14 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 33%;
+    left: 55%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect14 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 32%;
+    left: 54.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin15 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 62%;
+    left: 37%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect15 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 61%;
+    left: 36.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin16 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 37%;
+    left: 54%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect16 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 36%;
+    left: 53.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin17 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect17 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 34%;
+    left: 27.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin18 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 46%;
+    left: 58%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect18 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 45%;
+    left: 57.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin19 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect19 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 34%;
+    left: 49.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin20 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 39%;
+    left: 59%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect20 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 38%;
+    left: 58.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin21 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 33%;
+    left: 52%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect21 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 32%;
+    left: 51.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin22 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 40%;
+    left: 54%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect22 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 39%;
+    left: 53.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin23 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 46%;
+    left: 70%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect23 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 45%;
+    left: 69.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin24 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 44%;
+    left: 61%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect24 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 43%;
+    left: 60.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin25 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 42%;
+    left: 86%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect25 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 41%;
+    left: 85.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+.pin26 {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 42%;
+    left: 60%;
+    background:white;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect26 {
+    width: 7.5em;
+    height: 7.5em;
+    position: absolute;
+    top: 41%;
+    left: 59.2%;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+
+
 
 @keyframes pulsate {
     0% {
