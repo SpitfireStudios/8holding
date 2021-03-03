@@ -3,17 +3,16 @@ html {
 }
 
 #landingpage{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("chess.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: top;
     font-size: 5em;
-    font-family: "Neuzeit Grotesk";
-    font-weight: bolder;
+    width: 100%;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
     color: white;
-    padding: 1em;
+    top: 35%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
   a { 
@@ -38,12 +37,17 @@ html {
 }
 
 b{
-    font-weight:900;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
 }
 
 body{
     margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -62,9 +66,8 @@ body{
 
 nav{
     display: inline-flex;
-    align-items: center;
     width: 100%;
-    height: 5em;
+    height: auto;
     position: absolute;
     z-index: 11;
 }
@@ -73,15 +76,17 @@ ul{
     padding: 0;
     margin:0;
     margin-right: 5em;
+    top: 2em;
     position: absolute;
     display: inline-flex;
     right: 0;
 }
     
 h1{
-    font-family: "Neuzeit Grotesk";
-    font-weight: bold;
-    color: white;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #00305E;
     font-size: 1em;
     border-bottom: white;
     border-bottom-style: solid;
@@ -118,9 +123,10 @@ h1 :hover{
     position: relative;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    width: auto;
-    margin-top: 15em;
+    margin-top: 12em;
+    width: 100%;
     padding: 2em;
+    bottom: 0;
     background-color: white;
 }
 
@@ -143,11 +149,11 @@ h1 :hover{
     display: grid;
     position: relative;
     grid-template-columns: 2em auto;
-    grid-template-rows: 
+    /*grid-template-rows: 
     auto auto 5em auto auto 5em 
     auto 5em auto 5em auto 5em auto 5em auto 5em 
     auto 5em auto 5em auto 5em auto 5em auto 5em 
-    auto 5em auto 5em auto 5em;
+    auto 5em auto 5em auto 5em;*/
     grid-gap:3em;
     width: 90%;
     top: 8em;
@@ -167,8 +173,9 @@ h1 :hover{
 }
 
 span{
-    font-family: "Neuzeit Grotesk";
-    font-weight: bold;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #00305E;
     font-size: 1.5em;
     left: .5em;
@@ -176,29 +183,36 @@ span{
     position: relative;
 }
 
-pre{
-    height: 1em;
+h2{
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 2em;
 }
 
-h2{
-    font-family: 'Courgette';
-    font-weight: bold;
+pre {
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: white;
     font-size: 2em;
 }
 
 h3{
-    font-family: "Neuzeit Grotesk";
-    font-weight: bold;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: white;
     font-size: 1.5em;
-    align-self: center;
+    align-self: end;
     text-align: center;
 }
 
 h4{
-    font-family: "Neuzeit Grotesk";
-    font-weight: bold;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #00305E;
     font-size: 1.5em;
     align-self: center;
@@ -206,20 +220,22 @@ h4{
 }
 
 p1{
-    font-family: "Neuzeit Grotesk";
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: white;
     font-size: 1.2em;
-    font-weight: lighter;
     position: relative;
     align-self: center;
     text-align: center;
 }
 
 p2{
-    font-family: "Neuzeit Grotesk";
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #00305E;
     font-size: 1em;
-    font-weight: lighter;
     position: relative;
     text-align: left;
     padding-left: 25%;
@@ -227,10 +243,11 @@ p2{
 }
 
 p3{
-    font-family: "Neuzeit Grotesk";
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #00305E;
     font-size: 1.2em;
-    font-weight: lighter;
     position: relative;
     text-align: left;
     padding-right: 2em;
@@ -238,8 +255,9 @@ p3{
 
 button{
     position: absolute;
-    font-family: "Neuzeit Grotesk";
-    font-weight: bold;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #00305E;
     font-size: 1.2em;
     width: 8em;
@@ -251,8 +269,9 @@ button{
 
 button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
     position: absolute;
-    font-family: "Neuzeit Grotesk";
-    font-weight: bold;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: white;
     background-color: #00305E;
     font-size: 1.2em;
@@ -335,8 +354,9 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
   .countrylist{
       font-size: 1em;
       color: white;
-      font-family: "Neuzeit Grotesk";
-      font-weight: bold;
+      font-family: interstate-condensed, sans-serif;
+      font-weight: 700;
+      font-style: normal;
       position: relative;
       align-self: center;
       margin-right: 4em;
