@@ -1,3 +1,96 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle {
+  z-index: 90;
+}
+
+.deck {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+.deck:before, .deck:after {
+  content: "";
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  background: #00305E;
+  transition: transform 2s ease;
+}
+.deck:before {
+  top: 0;
+}
+.deck:after {
+  bottom: 0;
+}
+.deck.is-over:before {
+  transform: translate3d(0, -100vh, 0);
+}
+.deck.is-over:after {
+  transform: translate3d(0, 100vh, 0);
+}
+
+.text {
+  width: 100%;
+  z-index: 20;
+  font-family: interstate-condensed, sans-serif;
+  font-size: 8em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.text:before, .text:after {
+  display: block;
+  overflow: hidden;
+  transition: transform 2s ease;
+}
+.text:before {
+  content: "Vision • Relationships";
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid white;
+}
+.is-over .text:before {
+  transform: translate3d(0, -100vh, 0);
+}
+.text:after {
+  content: "Strategy • Results";
+  position: relative;
+  z-index: 20;
+  border-top: 1px solid white;
+}
+.is-over .text:after {
+  transform: translate3d(0, 100vh, 0);
+}
+
+#image{
+    background-color: black; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(keyhole4.png);
+    background-repeat:no-repeat; 
+    background-position: center;
+}
+
+
+
+
+
+
+
+
 html {
     scroll-behavior: smooth;
 }

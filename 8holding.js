@@ -24,3 +24,11 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+$('.text').on('click', function(){
+  $('.js-scene').toggleClass('is-over');
+  
+  setTimeout(function () {
+    window.location.href = "index.html";
+  }, 1000);
+});
