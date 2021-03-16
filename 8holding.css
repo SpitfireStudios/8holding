@@ -1109,3 +1109,2312 @@ iframe {
     width: 100%;
     border: none;
 }
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p */
+/* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p */
+/* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p */
+/* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p */
+/* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p *//* MEDIA QUERY FOR < 1080p */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1080px) {
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .toggle {
+        z-index: 90;
+      }
+      
+      .deck {
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        overflow: hidden;
+      }
+      .deck:before, .deck:after {
+        content: "";
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        left: 0;
+        background: #00305E;
+        transition: transform 2s ease;
+      }
+      .deck:before {
+        top: 0;
+      }
+      .deck:after {
+        bottom: 0;
+      }
+      .deck.is-over:before {
+        transform: translate3d(0, -100vh, 0);
+      }
+      .deck.is-over:after {
+        transform: translate3d(0, 100vh, 0);
+      }
+      
+      .text {
+        width: 100%;
+        z-index: 20;
+        font-family: interstate-condensed, sans-serif;
+        font-size: 4em;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+      }
+      .text:before, .text:after {
+        display: block;
+        overflow: hidden;
+        transition: transform 2s ease;
+      }
+      .text:before {
+        content: "Vision • Relationships";
+        position: relative;
+        z-index: 20;
+        border-bottom: 1px solid white;
+      }
+      .is-over .text:before {
+        transform: translate3d(0, -100vh, 0);
+      }
+      .text:after {
+        content: "Strategy • Results";
+        position: relative;
+        z-index: 20;
+        border-top: 1px solid white;
+      }
+      .is-over .text:after {
+        transform: translate3d(0, 100vh, 0);
+      }
+      
+      #image{
+          background-color: black; 
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100vh;
+          background-image: url(keyhole4.png);
+          background-repeat:no-repeat; 
+          background-position: center;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      html {
+          scroll-behavior: smooth;
+      }
+      
+      #landingpage{
+          font-size: 5em;
+          width: 100%;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          position: absolute;
+          color: white;
+          top: 35%;
+          text-align: center;
+          text-transform: uppercase;
+      }
+      
+        a { 
+          color: inherit; 
+          text-decoration: none;
+          display: contents;
+      } 
+      
+      
+      .articles{
+          border-style: solid;
+          border-width: 0em;
+          transition: ease-in-out .5s;
+          border-color: #00305E;
+      }
+      
+      .articles:hover{
+          border-style: solid;
+          border-width: 1em;
+          border-color: #00305E;
+          transition: ease-in-out .5s;
+      }
+      
+      b{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 800;
+          font-style: normal;
+          font-size: 1.5em;
+      }
+      
+      body{
+          margin: 0;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #212529;
+          text-align: left;
+          background-color: #00305E;
+      }
+      
+      #mycarousel {
+          width: 100%;
+          display: flex;
+          height: 50vh;
+          position: relative;
+      }
+      
+      
+      nav{
+          display: inline-flex;
+          width: 100%;
+          height: auto;
+          position: absolute;
+          z-index: 11;
+      }
+      
+      ul{
+          padding: 0;
+          margin:0;
+          margin-right: 5em;
+          top: 2em;
+          position: absolute;
+          display: inline-flex;
+          right: 0;
+      }
+          
+      h1{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1em;
+          border-bottom: white;
+          border-bottom-style: solid;
+          border-width: 1px;
+          margin-left: 1em;
+          margin-right:1em;
+          margin-block-start: 0;
+          margin-block-end: 0;
+      }
+      
+      h1 :hover{
+          text-decoration: none;
+          color: #00305E;
+      
+      }
+      
+      .grid-container{
+          display: grid;
+          position: relative;
+          grid-template-columns: auto auto auto auto;
+          grid-template-rows: 10em 10em 8em;
+          grid-gap:3em;
+          width: auto;
+          justify-items: center;
+          margin: 5em;
+          padding: 2em;
+          border-style: solid;
+          border-color: white;
+          border-width: 1px;
+      }
+      
+      .grid-container2{
+          display: grid;
+          position: relative;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto;
+          margin-top: 12em;
+          width: 100%;
+          padding: 2em;
+          bottom: 0;
+          background-color: white;
+      }
+      
+      .grid-containerprimary{
+      
+          display: grid;
+          position: relative;
+          grid-template-columns: 2em auto;
+          grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
+          grid-gap:3em;
+          width: 90%;
+          top: 8em;
+          justify-items: left;
+          margin: auto;
+          padding: 2em;
+      }
+      
+      .grid-industries{
+      
+          display: grid;
+          position: relative;
+          grid-template-columns: 2em auto;
+          /*grid-template-rows: 
+          auto auto 5em auto auto 5em 
+          auto 5em auto 5em auto 5em auto 5em auto 5em 
+          auto 5em auto 5em auto 5em auto 5em auto 5em 
+          auto 5em auto 5em auto 5em;*/
+          grid-gap:3em;
+          width: 90%;
+          top: 8em;
+          justify-items: left;
+          margin: auto;
+          padding: 2em;
+      }
+      
+      .iconbox{
+          width: 15em;
+          height: 15em;
+          background-color: white;
+          position: relative;
+          display: table;
+          margin-right: 4em;
+          box-shadow: 5px 5px 20px black;
+      }
+      
+      span{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1em;
+          left: .5em;
+          top: .5em;
+          position: relative;
+      }
+      
+      h2{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 1em;
+      }
+      
+      pre {
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 1em;
+      }
+      
+      h3{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 1em;
+          align-self: end;
+          text-align: center;
+      }
+      
+      h4{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1em;
+          align-self: center;
+          text-align: center;
+      }
+      
+      p1{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          color: white;
+          font-size: .75em;
+          position: relative;
+          align-self: center;
+          text-align: center;
+      }
+      
+      p2{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1em;
+          position: relative;
+          text-align: left;
+          padding-left: 25%;
+          padding-right: 25%;
+      }
+      
+      p3{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1.2em;
+          position: relative;
+          text-align: left;
+          padding-right: 2em;
+      }
+      
+      button{
+          position: absolute;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1.2em;
+          width: 8em;
+          height: 2em;
+          border: none;
+          bottom: 0;
+          margin: 2em;
+      }
+      
+      button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
+          position: absolute;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          background-color: #00305E;
+          font-size: 1.2em;
+          width: 8em;
+          height: 2em;
+          border: none;
+          bottom: 0;
+          margin: 2em;
+          text-decoration: none;
+      }
+      
+      #links{
+          width: 90%;
+          margin: auto;
+      
+      }
+      
+      .collapsible {
+          position: relative;
+          background-color: white;
+          color: #00305E;
+          cursor: pointer;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 2em;
+          width: 100%;
+          margin: 0;
+          transition: ease-in-out 1s;
+        }
+      
+        .collapsible:after {
+          content: '\02795'; /* Unicode character for "plus" sign (+) */
+          font-size: 1em;
+          color: #00305E;
+          float: right;
+        }
+        
+        .active:after {
+          content: "\2796";
+          color: #00305E; /* Unicode character for "minus" sign (-) */
+        }
+        
+        .content {
+          padding: 0;
+          background-color: #00305E;
+          border: 1px solid white;
+          max-height: 0;
+          padding-left: 2em;
+          padding-right:2em;
+          overflow: hidden;
+          transition: all 1s ease-in-out;
+        }
+      
+        .vl{
+          border-left: .1em solid white;
+          height: 100%;
+          position: absolute;
+        }
+      
+        .link {
+          position: relative;
+          width: 100%;
+        }
+        
+        .link::after {
+          content: "";
+          width: 1em;
+          height: 1em;
+          background: #fff;
+          position: absolute;
+          border-radius: 10px;
+          left: -.5em;
+        }
+      
+        .link:hover::after {
+          background: black;
+        }
+      
+        .countrylist{
+            font-size: 1em;
+            color: white;
+            font-family: interstate-condensed, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            position: relative;
+            align-self: center;
+            margin-right: 4em;
+        }
+      
+        .marker {
+          width: 100%;
+          height: 54%;
+          position: relative;
+          display: block;
+      }
+      
+      .pin1 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 38%;
+          left: 55%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect1 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 37%;
+          left: 54.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin2 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 35%;
+          left: 16%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect2 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 34%;
+          left: 15.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin3 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 39%;
+          left: 29%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect3 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 38%;
+          left: 28.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin4 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 45%;
+          left: 25%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect4 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 44%;
+          left: 24.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin5 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 30%;
+          left: 48%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect5 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 29%;
+          left: 47.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin6 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 37%;
+          left: 52%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect6 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 36%;
+          left: 51.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin7 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 44%;
+          left: 65%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect7 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 43%;
+          left: 64.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin8 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 71%;
+          left: 90%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect8 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 70%;
+          left: 89.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin9 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 40%;
+          left: 83%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect9 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 39%;
+          left: 82.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin10 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 40%;
+          left: 51%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect10 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 39%;
+          left: 50.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      /*New Shit*/
+      
+      .pin11 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 40%;
+          left: 60%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect11 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 39%;
+          left: 59.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin12 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 45%;
+          left: 63%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect12 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 44%;
+          left: 62.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin13 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 32%;
+          left: 50%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect13 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 31%;
+          left: 49.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin14 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 33%;
+          left: 55%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect14 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 32%;
+          left: 54.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin15 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 62%;
+          left: 37%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect15 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 61%;
+          left: 36.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin16 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 37%;
+          left: 54%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect16 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 36%;
+          left: 53.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin17 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 35%;
+          left: 28%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect17 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 34%;
+          left: 27.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin18 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 46%;
+          left: 58%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect18 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 45%;
+          left: 57.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin19 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect19 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 34%;
+          left: 49.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin20 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 39%;
+          left: 59%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect20 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 38%;
+          left: 58.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin21 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 33%;
+          left: 52%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect21 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 32%;
+          left: 51.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin22 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 40%;
+          left: 54%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect22 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 39%;
+          left: 53.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin23 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 46%;
+          left: 70%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect23 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 45%;
+          left: 69.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin24 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 44%;
+          left: 61%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect24 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 43%;
+          left: 60.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin25 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 42%;
+          left: 86%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect25 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 41%;
+          left: 85.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin26 {
+          width: 1em;
+          height: 1em;
+          position: absolute;
+          top: 42%;
+          left: 60%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect26 {
+          width: 7.5em;
+          height: 7.5em;
+          position: absolute;
+          top: 41%;
+          left: 59.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      
+      
+      
+      @keyframes pulsate {
+          0% {
+              transform: scale(0.1);
+              opacity: 0;
+          }
+          50% {
+              opacity: .5;
+          }
+          100% {
+              transform: scale(1.2);
+              opacity: 0;
+          }
+      }
+      
+      iframe {
+          width: 100%;
+          border: none;
+      }
+
+
+
+  }
+
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p */
+/* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p */
+/* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p */
+/* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p */
+/* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p *//* MEDIA QUERY FOR < 830p */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .toggle {
+        z-index: 90;
+      }
+      
+      .deck {
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        overflow: hidden;
+      }
+      .deck:before, .deck:after {
+        content: "";
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        left: 0;
+        background: #00305E;
+        transition: transform 2s ease;
+      }
+      .deck:before {
+        top: 0;
+      }
+      .deck:after {
+        bottom: 0;
+      }
+      .deck.is-over:before {
+        transform: translate3d(0, -100vh, 0);
+      }
+      .deck.is-over:after {
+        transform: translate3d(0, 100vh, 0);
+      }
+      
+      .text {
+        width: 100%;
+        z-index: 20;
+        font-family: interstate-condensed, sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+      }
+      .text:before, .text:after {
+        display: block;
+        overflow: hidden;
+        transition: transform 2s ease;
+      }
+      .text:before {
+        content: "Vision • Relationships";
+        position: relative;
+        z-index: 20;
+        border-bottom: 1px solid white;
+      }
+      .is-over .text:before {
+        transform: translate3d(0, -100vh, 0);
+      }
+      .text:after {
+        content: "Strategy • Results";
+        position: relative;
+        z-index: 20;
+        border-top: 1px solid white;
+      }
+      .is-over .text:after {
+        transform: translate3d(0, 100vh, 0);
+      }
+      
+      #image{
+          background-color: black; 
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: url(keyhole4.png);
+          background-repeat:no-repeat; 
+          background-position: center;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      html {
+          scroll-behavior: smooth;
+      }
+      
+      #landingpage{
+          font-size: 5em;
+          width: 100%;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          position: absolute;
+          color: white;
+          top: 35%;
+          text-align: center;
+          text-transform: uppercase;
+      }
+      
+        a { 
+          color: inherit; 
+          text-decoration: none;
+          display: contents;
+      } 
+      
+      
+      .articles{
+          border-style: solid;
+          border-width: 0em;
+          transition: ease-in-out .5s;
+          border-color: #00305E;
+      }
+      
+      .articles:hover{
+          border-style: solid;
+          border-width: 1em;
+          border-color: #00305E;
+          transition: ease-in-out .5s;
+      }
+      
+      b{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 800;
+          font-style: normal;
+          font-size: 1.5em;
+      }
+      
+      body{
+          margin: 0;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #212529;
+          text-align: left;
+          background-color: #00305E;
+      }
+      
+      #mycarousel {
+          width: 100%;
+          display: flex;
+          height: 30vh;
+          position: relative;
+      }
+
+      .d-none {
+        display: block !important;
+    }
+
+    .carousel-caption {
+        
+        width: 100%;
+        top:1em !important;
+        left: 0em !important;
+        padding: 1em;
+
+    }
+      
+      
+      nav{
+          display: inline-flex;
+          width: 100%;
+          height: 4em !important;
+          position: absolute;
+          z-index: 11;
+      }
+
+      img[src*="logowhite.png"]{
+          width: 3rem !important;
+          height: .5em !important;
+          margin-left: 1em !important;
+          margin-top: 1em !important;
+      }
+
+      img[src*="logoblue.png"]{
+        top: 0em !important;
+        width: 3rem !important;
+        height: .5em !important;
+        margin-left: 1em !important;
+        margin-top: 1em !important;
+    }
+      
+      ul{
+          padding: 0;
+          margin:0;
+          margin-right: 1em;
+          top: 1em;
+          position: absolute;
+          display: inline-flex;
+          right: 0;
+      }
+          
+      h1{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: .1rem;
+          border-bottom: white;
+          border-bottom-style: solid;
+          border-width: 1px;
+          margin-left: 1em;
+          margin-right:1em;
+          margin-block-start: 0;
+          margin-block-end: 0;
+      }
+      
+      h1 :hover{
+          text-decoration: none;
+          color: #00305E;
+      
+      }
+      
+      .grid-container{
+          display: grid;
+          position: relative;
+          grid-template-columns: auto auto auto auto;
+          grid-template-rows: 10em 10em 8em;
+          grid-gap:1em;
+          width: auto;
+          justify-items: center;
+          margin: 1em;
+          margin-top: 3em;
+          padding: .5em;
+          border-style: solid;
+          border-color: white;
+          border-width: 1px;
+      }
+      
+      .grid-container2{
+          display: grid;
+          position: relative;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto;
+          margin-top: 12em;
+          width: 100%;
+          padding: 2em;
+          bottom: 0;
+          background-color: white;
+      }
+      
+      .grid-containerprimary{
+      
+          display: grid;
+          position: relative;
+          grid-template-columns: 0 auto;
+          grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
+          grid-gap:0;
+          grid-row-gap:1em;
+          width: 100%;
+          top: 0;
+          justify-items: left;
+      }
+      
+      .grid-industries{
+      
+        display: grid;
+        position: relative;
+        grid-template-columns:auto;
+        grid-template-rows: auto auto 5em;
+        grid-gap:0 !important;
+        width: 100%;
+        top: 0;
+        justify-items: left;
+      }
+      
+      .iconbox{
+          width: 15em;
+          height: 15em;
+          background-color: white;
+          position: relative;
+          display: table;
+          margin-right: 4em;
+          box-shadow: 5px 5px 20px black;
+      }
+      
+      span{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1em;
+          left: .5em;
+          top: .5em;
+          position: relative;
+      }
+      
+      h2{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: .25em !important;
+      }
+      
+      pre {
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: .1rem;
+          margin-top: 0 !important;
+      }
+      
+      h3{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: .5em;
+          align-self: end;
+          margin-bottom: 5em;
+          text-align: center;
+      }
+      
+      h4{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1em;
+          align-self: center;
+          text-align: center;
+      }
+      
+      p1{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          color: white;
+          font-size: 8px;
+          position: relative;
+          align-self: center;
+          text-align: center;
+      }
+      
+      p2{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: .5em;
+          position: relative;
+          text-align: left;
+          padding-left: 25%;
+          padding-right: 25%;
+      }
+      
+      p3{
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: 1.2em;
+          position: relative;
+          text-align: left;
+          padding-right: 2em;
+      }
+      
+      button{
+          position: absolute;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #00305E;
+          font-size: .5em;
+          width: 6em;
+          height: 2em;
+          border: none;
+          margin: 5em;
+      }
+      
+      button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
+          position: absolute;
+          font-family: interstate-condensed, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          background-color: #00305E;
+          font-size: 1.2em;
+          width: 8em;
+          height: 2em;
+          border: none;
+          bottom: 0;
+          margin: 2em;
+          text-decoration: none;
+      }
+      
+      #links{
+          width: 100%;
+          margin: auto;
+      }
+
+      img[src*="logobloomberg.png"], [src*="logoforeignaffairs.png"], [src*="logocsis.png"], [src*="logoceps.png"], [src*="logobrookings.png"], [src*="logoiiss.png"], [src*="logocarnegie.png"], [src*="logochathamhouse.png"]{
+        width: 3rem !important;
+        margin-left: 2em !important;
+        margin-top: 2em !important;
+    }
+
+    img[src*="world-map.png"]{
+        margin-left: 2em !important;
+    }
+      
+      .collapsible {
+          position: relative;
+          background-color: white;
+          color: #00305E;
+          cursor: pointer;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 2em;
+          width: 100%;
+          margin: 0;
+          transition: ease-in-out 1s;
+        }
+      
+        .collapsible:after {
+          content: '\02795'; /* Unicode character for "plus" sign (+) */
+          font-size: 1em;
+          color: #00305E;
+          float: right;
+        }
+        
+        .active:after {
+          content: "\2796";
+          color: #00305E; /* Unicode character for "minus" sign (-) */
+        }
+        
+        .content {
+          padding: 0;
+          background-color: #00305E;
+          border: 1px solid white;
+          max-height: 0;
+          padding-left: 2em;
+          padding-right:2em;
+          overflow: hidden;
+          transition: all 1s ease-in-out;
+        }
+      
+        .vl{
+          border-left: .1em solid white;
+          height: 100%;
+          position: absolute;
+        }
+      
+        .link {
+          position: relative;
+          width: 100%;
+        }
+        
+        .link::after {
+          content: "";
+          width: 1em;
+          height: 1em;
+          background: #fff;
+          position: absolute;
+          border-radius: 10px;
+          left: -.5em;
+        }
+      
+        .link:hover::after {
+          background: black;
+        }
+      
+        .countrylist{
+            font-size: .5em;
+            color: white;
+            font-family: interstate-condensed, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            position: relative;
+            align-self: center;
+            margin-right: 4em;
+        }
+      
+        .marker {
+          width: 100%;
+          height: 50%;
+          left: -2em;
+          top:-3em;
+          position: relative;
+          display: block;
+      }
+      
+      .pin1 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 38%;
+          left: 55%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect1 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 37%;
+          left: 54.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin2 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 35%;
+          left: 16%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect2 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 34%;
+          left: 15.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin3 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 39%;
+          left: 29%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect3 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 38%;
+          left: 28.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin4 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 45%;
+          left: 25%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect4 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 44%;
+          left: 24.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin5 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 30%;
+          left: 48%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect5 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 29%;
+          left: 47.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin6 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 37%;
+          left: 52%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect6 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 36%;
+          left: 51.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin7 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 44%;
+          left: 65%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect7 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 43%;
+          left: 64.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin8 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 71%;
+          left: 90%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect8 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 70%;
+          left: 89.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin9 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 40%;
+          left: 83%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect9 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 39%;
+          left: 82.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin10 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 40%;
+          left: 51%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect10 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 39%;
+          left: 50.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      /*New Shit*/
+      
+      .pin11 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 40%;
+          left: 60%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect11 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 39%;
+          left: 59.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin12 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 45%;
+          left: 63%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect12 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 44%;
+          left: 62.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin13 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 32%;
+          left: 50%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect13 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 31%;
+          left: 49.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin14 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 33%;
+          left: 55%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect14 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 32%;
+          left: 54.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin15 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 62%;
+          left: 37%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect15 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 61%;
+          left: 36.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin16 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 37%;
+          left: 54%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect16 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 36%;
+          left: 53.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin17 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 35%;
+          left: 28%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect17 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 34%;
+          left: 27.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin18 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 46%;
+          left: 58%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect18 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 45%;
+          left: 57.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin19 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect19 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 34%;
+          left: 49.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin20 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 39%;
+          left: 59%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect20 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 38%;
+          left: 58.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin21 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 33%;
+          left: 52%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect21 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 32%;
+          left: 51.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin22 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 40%;
+          left: 54%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect22 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 39%;
+          left: 53.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin23 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 46%;
+          left: 70%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect23 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 45%;
+          left: 69.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin24 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 44%;
+          left: 61%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect24 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 43%;
+          left: 60.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin25 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 42%;
+          left: 86%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect25 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 41%;
+          left: 85.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      .pin26 {
+          width: 1em;
+          height: 2em;
+          position: absolute;
+          top: 42%;
+          left: 60%;
+          background:white;
+          border: 2px solid #FFF;
+          border-radius: 50%;
+          z-index: 1000;
+      }
+      
+      .pin-effect26 {
+          width: 6em;
+          height: 6em;
+          position: absolute;
+          top: 41%;
+          left: 59.2%;
+          background: white;
+          border-radius: 50%;
+          opacity: 0;
+          animation: pulsate 2400ms ease-out infinite;
+      }
+      
+      
+      
+      
+      @keyframes pulsate {
+          0% {
+              transform: scale(0.1);
+              opacity: 0;
+          }
+          50% {
+              opacity: .5;
+          }
+          100% {
+              transform: scale(1.2);
+              opacity: 0;
+          }
+      }
+      
+      iframe {
+          width: 100%;
+          border: none;
+      }
+
+
+
+  }
