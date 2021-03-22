@@ -360,7 +360,7 @@ button{
     margin: 2em;
 }
 
-button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
+button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .pin10, .pin11, .pin12, .pin13, .pin14, .pin15, .pin16, .pin17, .pin18, .pin19, .pin20, .pin21, .pin22, .pin23, .pin24, .pin25, .pin26, .pin27, .btn-default):hover{
     position: absolute;
     font-family: interstate-condensed, sans-serif;
     font-weight: 700;
@@ -1493,7 +1493,7 @@ iframe {
           margin: 2em;
       }
       
-      button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
+      button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .pin10, .pin11, .pin12, .pin13, .pin14, .pin15, .pin16, .pin17, .pin18, .pin19, .pin20, .pin21, .pin22, .pin23, .pin24, .pin25, .pin26, .pin27, .btn-default):hover{
           position: absolute;
           font-family: interstate-condensed, sans-serif;
           font-weight: 700;
@@ -2263,11 +2263,20 @@ iframe {
 
 
 
+@media only screen and (max-width: 768px) {
+
+    .marker {
+        width: 100%;
+        height: 35%;
+        position: relative;
+        display: block;
+    }
+
+}
 
 
 
-
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 414px) {
 
     .centered {
         position: absolute;
@@ -2654,7 +2663,7 @@ iframe {
           margin: 5em;
       }
       
-      button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .btn-default):hover{
+      button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8, .pin9, .pin10, .pin11, .pin12, .pin13, .pin14, .pin15, .pin16, .pin17, .pin18, .pin19, .pin20, .pin21, .pin22, .pin23, .pin24, .pin25, .pin26, .pin27, .btn-default):hover{
           position: absolute;
           font-family: interstate-condensed, sans-serif;
           font-weight: 700;
