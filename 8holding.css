@@ -64,7 +64,7 @@
   transform: translate3d(0, -100vh, 0);
 }
 .text:after {
-  content: "Strategy • Results";
+  content: "Strategy";
   position: relative;
   z-index: 20;
   border-top: 1px solid white;
@@ -79,9 +79,6 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-image: url(keyhole4.png);
-    background-repeat:no-repeat; 
-    background-position: center;
 }
 
 
@@ -2267,7 +2264,7 @@ iframe {
 
     .marker {
         width: 100%;
-        height: 35%;
+        height: 34%;
         position: relative;
         display: block;
     }
@@ -2769,7 +2766,7 @@ iframe {
       
         .marker {
           width: 100%;
-          height: 50%;
+          height: 46%;
           left: -2em;
           top:-3em;
           position: relative;
