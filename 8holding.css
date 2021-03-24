@@ -228,7 +228,7 @@ h1 :hover{
     grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
     grid-gap:3em;
     width: 90%;
-    top: 8em;
+    top: 4em;
     justify-items: left;
     margin: auto;
     padding: 2em;
@@ -1361,7 +1361,7 @@ iframe {
           grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
           grid-gap:3em;
           width: 90%;
-          top: 8em;
+          top: 4em;
           justify-items: left;
           margin: auto;
           padding: 2em;
