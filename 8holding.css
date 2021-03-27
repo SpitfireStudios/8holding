@@ -1194,7 +1194,7 @@ iframe {
         transform: translate3d(0, -100vh, 0);
       }
       .text:after {
-        content: "Strategy • Results";
+        content: "Strategy";
         position: relative;
         z-index: 20;
         border-top: 1px solid white;
@@ -1209,9 +1209,6 @@ iframe {
           position: absolute;
           width: 100%;
           height: 100vh;
-          background-image: url(keyhole4.png);
-          background-repeat:no-repeat; 
-          background-position: center;
       }
       
       
@@ -2319,7 +2316,7 @@ iframe {
 
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
 
     .centered {
         position: absolute;
@@ -2387,7 +2384,7 @@ iframe {
         transform: translate3d(0, -100vh, 0);
       }
       .text:after {
-        content: "Strategy • Results";
+        content: "Strategy";
         position: relative;
         z-index: 20;
         border-top: 1px solid white;
@@ -2402,10 +2399,7 @@ iframe {
           position: absolute;
           width: 100%;
           height: 100%;
-          background-image: url(keyhole4.png);
-          background-repeat:no-repeat; 
-          background-position: center;
-      }
+        }
       
       
       
@@ -2475,7 +2469,7 @@ iframe {
       #mycarousel {
           width: 100%;
           display: flex;
-          height: 30vh;
+          height: 25vh;
           position: relative;
       }
 
