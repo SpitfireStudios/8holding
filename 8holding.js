@@ -29,6 +29,6 @@ $('.text').on('click', function(){
   $('.js-scene').toggleClass('is-over');
   
   setTimeout(function () {
-    window.location.href = "index.html";
+    window.location.href = "home.html";
   }, 1000);
 });
