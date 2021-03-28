@@ -55,8 +55,9 @@
   transition: transform 2s ease;
 }
 .text:before {
-  content: "Vision • Relationships";
+  content: "Vision, Relationships";
   position: relative;
+  padding: 3rem;
   z-index: 20;
   border-bottom: 1px solid white;
 }
@@ -66,6 +67,7 @@
 .text:after {
   content: "Strategy";
   position: relative;
+  padding: 3rem;
   z-index: 20;
   border-top: 1px solid white;
 }
@@ -365,8 +367,6 @@ button:not(.collapsible, .pin1, .pin2, .pin3, .pin4, .pin5, .pin6, .pin7, .pin8,
     color: white;
     background-color: #00305E;
     font-size: 1.2em;
-    width: 8em;
-    height: 2em;
     border: none;
     bottom: 0;
     margin: 2em;
@@ -1185,7 +1185,7 @@ iframe {
         transition: transform 2s ease;
       }
       .text:before {
-        content: "Vision • Relationships";
+        content: "Vision Relationships";
         position: relative;
         z-index: 20;
         border-bottom: 1px solid white;
@@ -1201,6 +1201,14 @@ iframe {
       }
       .is-over .text:after {
         transform: translate3d(0, 100vh, 0);
+      }
+
+      .anchor{
+        z-index: 50; position: absolute; width: 100%; height: 100%; text-align: center;
+      }
+
+      .anchor:after{
+        z-index: 50; position: absolute; width: 100%; height: 100%; text-align: center; display: none;
       }
       
       #image{
@@ -1495,8 +1503,6 @@ iframe {
           color: white;
           background-color: #00305E;
           font-size: 1.2em;
-          width: 8em;
-          height: 2em;
           border: none;
           bottom: 0;
           margin: 2em;
@@ -2364,7 +2370,7 @@ iframe {
         width: 100%;
         z-index: 20;
         font-family: interstate-condensed, sans-serif;
-        font-size: 1em;
+        font-size: 2em;
         font-weight: 700;
         color: #fff;
         text-align: center;
@@ -2375,7 +2381,7 @@ iframe {
         transition: transform 2s ease;
       }
       .text:before {
-        content: "Vision • Relationships";
+        content: "Vision, Relationships";
         position: relative;
         z-index: 20;
         border-bottom: 1px solid white;
@@ -2709,12 +2715,11 @@ iframe {
           font-style: normal;
           color: white;
           background-color: #00305E;
-          font-size: 1.2em;
-          width: 8em;
+          font-size: .5em;
+          width: 6em;
           height: 2em;
           border: none;
-          bottom: 0;
-          margin: 2em;
+          margin: 5em;
           text-decoration: none;
       }
       
