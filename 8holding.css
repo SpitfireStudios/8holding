@@ -2518,6 +2518,7 @@ iframe {
           border-width: 0em;
           transition: ease-in-out .5s;
           border-color: #00305E;
+          width:30em !important;
       }
       
       .articles:hover{
@@ -2743,7 +2744,7 @@ iframe {
         color: white;
         font-size: 1em;
         align-self: end;
-        margin-bottom: 2em;
+        margin-bottom: 6em;
         text-align: center;
       }
       
@@ -2752,7 +2753,7 @@ iframe {
           font-weight: 500;
           font-style: normal;
           color: white;
-          font-size: 8px;
+          font-size: 11px;
           position: relative;
           align-self: center;
           text-align: center;
