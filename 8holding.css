@@ -2313,7 +2313,7 @@ iframe {
     }
 
     .enterbutton{
-        transform: translateY(0) !important;
+        transform: translateY(-5%) !important;
     }
 
     nav {
