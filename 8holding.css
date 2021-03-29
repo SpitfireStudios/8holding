@@ -55,7 +55,7 @@
   transition: transform 2s ease;
 }
 .text:before {
-  content: "Vision, Relationships";
+  content: "Vision     Relationships";
   position: relative;
   padding: 3rem;
   z-index: 20;
@@ -230,7 +230,7 @@ h1 :hover{
     grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
     grid-gap:3em;
     width: 90%;
-    top: 4em;
+    top: 2em;
     justify-items: left;
     margin: auto;
     padding: 2em;
@@ -1185,7 +1185,7 @@ iframe {
         transition: transform 2s ease;
       }
       .text:before {
-        content: "Vision Relationships";
+        content: "Vision     Relationships";
         position: relative;
         z-index: 20;
         border-bottom: 1px solid white;
@@ -2381,7 +2381,7 @@ iframe {
         transition: transform 2s ease;
       }
       .text:before {
-        content: "Vision, Relationships";
+        content: "Vision     Relationships";
         position: relative;
         z-index: 20;
         border-bottom: 1px solid white;
