@@ -2313,7 +2313,7 @@ iframe {
     }
 
     .enterbutton{
-        transform: translateY(-5%) !important;
+        transform: translateY(0) !important;
     }
 
     nav {
@@ -2656,7 +2656,7 @@ iframe {
           color: white;
           font-size: 1em;
           align-self: end;
-          margin-bottom: 5em;
+          margin-bottom: 2em;
           text-align: center;
       }
       
