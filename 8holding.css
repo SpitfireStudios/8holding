@@ -55,7 +55,8 @@
   transition: transform 2s ease;
 }
 .text:before {
-  content: "Vision     Relationships";
+  content: "Vision   Relationships";
+  white-space: pre;
   position: relative;
   padding: 3rem;
   z-index: 20;
@@ -226,7 +227,7 @@ h1 :hover{
 
     display: grid;
     position: relative;
-    grid-template-columns: 2em auto;
+    grid-template-columns: auto;
     grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
     grid-gap:3em;
     width: 90%;
@@ -351,6 +352,7 @@ button{
     font-weight: 700;
     font-style: normal;
     color: #00305E;
+    background-color: white;
     font-size: 1.2em;
     width: 8em;
     height: 2em;
@@ -1185,7 +1187,8 @@ iframe {
         transition: transform 2s ease;
       }
       .text:before {
-        content: "Vision     Relationships";
+        content: "Vision   Relationships";
+        white-space: pre;
         position: relative;
         z-index: 20;
         border-bottom: 1px solid white;
@@ -1362,7 +1365,7 @@ iframe {
       
           display: grid;
           position: relative;
-          grid-template-columns: 2em auto;
+          grid-template-columns: auto;
           grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
           grid-gap:3em;
           width: 90%;
@@ -1487,6 +1490,7 @@ iframe {
           font-weight: 700;
           font-style: normal;
           color: #00305E;
+          background-color: white;
           font-size: 1.2em;
           width: 8em;
           height: 2em;
@@ -2381,7 +2385,8 @@ iframe {
         transition: transform 2s ease;
       }
       .text:before {
-        content: "Vision     Relationships";
+        content: "Vision   Relationships";
+        white-space: pre;
         position: relative;
         z-index: 20;
         border-bottom: 1px solid white;
@@ -2581,7 +2586,7 @@ iframe {
       
           display: grid;
           position: relative;
-          grid-template-columns: 0 auto;
+          grid-template-columns: auto;
           grid-template-rows: auto auto 5em auto auto 5em auto auto 5em;
           grid-gap:0;
           grid-row-gap:1em;
@@ -2701,6 +2706,7 @@ iframe {
           font-weight: 700;
           font-style: normal;
           color: #00305E;
+          background-color: white;
           font-size: .5em;
           width: 6em;
           height: 2em;
